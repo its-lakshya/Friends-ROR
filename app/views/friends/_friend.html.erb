@@ -1,27 +1,33 @@
-<div id="<%= dom_id friend %>">
-  <p>
+<div id="<%= dom_id friend %>" >
+<table class='table'>
+<thead>
+<tr>
+  <th>
     <strong>First name:</strong>
     <%= friend.first_name %>
-  </p>
+  </th>
 
-  <p>
+  <th>
     <strong>Last name:</strong>
     <%= friend.last_name %>
-  </p>
+  </th>
 
-  <p>
+  <th>
     <strong>Email:</strong>
     <%= friend.email %>
-  </p>
+  </th>
 
-  <p>
+  <th>
     <strong>Phone:</strong>
     <%= friend.phone %>
-  </p>
+  </th>
 
-  <p>
+  <th>
     <strong>Twitter:</strong>
     <%= friend.twitter %>
-  </p>
+  </th>
+  </tr>
+  </thead>
+  <table/>
 
 </div>
